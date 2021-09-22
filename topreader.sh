@@ -9,7 +9,7 @@ do
         sar -A > alert.txt
         state="false"
     else
-        sleep 6
+        sleep 60
         continue
     fi
 done    
